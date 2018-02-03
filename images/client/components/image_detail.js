@@ -17,7 +17,7 @@ const ImageDetail = (props) => {
 					{props.image.title}
 				</h4>
 				<p>{props.image.description}</p>
-				<ImageScore ups={props.image.ups} down={props.image.downs} />
+				<ImageScore ups={props.image.ups} downs={props.image.downs} />
 			</div>
 		</li>
 	);
